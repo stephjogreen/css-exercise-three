@@ -58,22 +58,17 @@ body {
   line-height: 1.2;
 }
 
-div class="arrow" { /*not working trying to move to right*/
-  margin: right;
-}
-
-a "location":hover {color: #BDBDBD;}
-
 .container {
   margin: 0 auto;
   width: 420px;
+	background-color: #dadada
 }
 
 nav {
   margin: 0 auto;
   padding: 10px 15px 15px 15px;
-  position:fixed;
-  width: 420px;
+  background-color: black;
+	padding: 10px;
 }
 
 h1 {
@@ -87,9 +82,24 @@ font-weight: bold;
 }
 
 .restaurant-list {
-  float:left;
-  margin: 3%
-  padding: 2%;
-  width: 90%;
+	clear: both;
   background-color: #E0E0E0;
+}
+
+.arrow {
+	float: right;
+}
+
+.location {
+	clear: both;
+	height: 60px;
+	padding: 10px;
+}
+
+.location:hover {
+	background-color: #bdbdbd;
+}
+
+.content {
+	float: left;
 }
